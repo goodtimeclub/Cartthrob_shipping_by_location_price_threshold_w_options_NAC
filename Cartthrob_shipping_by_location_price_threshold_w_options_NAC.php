@@ -1,3 +1,5 @@
+<?php if ( ! defined('CARTTHROB_PATH')) Cartthrob_core::core_error('No direct script access allowed');
+
 /**
  * ExpressionEngine - by EllisLab
  *
@@ -21,8 +23,6 @@
  * @author		Dan Copeland - National Arts Centre / Centre national des Arts
  * @link		http://nac-cna.ca
  */
- 
-<?php if ( ! defined('CARTTHROB_PATH')) Cartthrob_core::core_error('No direct script access allowed');
 
 class Cartthrob_shipping_by_location_price_threshold_w_options_NAC extends Cartthrob_shipping
 {
